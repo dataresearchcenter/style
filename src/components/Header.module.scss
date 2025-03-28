@@ -1,0 +1,29 @@
+.Header {
+  &__link {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.StackItem {
+  display: flex;
+  align-items: center;
+
+  &--hide {
+    display: none;
+  }
+
+  &--left {
+    justify-content: left;
+  }
+
+  &--center {
+    justify-content: center;
+  }
+
+  &--right {
+    justify-content: right;
+  }
+}

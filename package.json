@@ -1,6 +1,6 @@
 {
   "name": "@investigativedata/style",
-  "version": "0.2.1",
+  "version": "0.2.1-oa-rc1",
   "description": "Style (guide) and React components for investigativedata.io",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.6.0",
-    "@rive-app/react-canvas-lite": "^4.18.3"
+    "@rive-app/react-canvas-lite": "^4.18.3",
+    "cssnano": "^7.0.6"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.6",

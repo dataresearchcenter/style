@@ -7,7 +7,6 @@ import Stack from "@mui/joy/Stack";
 import Typography from "@mui/joy/Typography";
 import { ColorPaletteProp } from "@mui/joy/styles";
 import { BACKGROUND_VARS } from "../theme/colors";
-import AnimatedLogo from "./AnimatedLogo";
 import Burger from "./Burger";
 import { PageContext } from "./PageContext";
 import PageMenu, { IPageMenuItem } from "./PageMenu";
@@ -125,7 +124,14 @@ export default function Header({
             width={{ xs: "50%", sm: "auto" }}
             margin={{ xs: "0 !important", sm: "0 0 0 1rem !important" }}
           >
-            <AnimatedLogo />
+            <a href="/">
+              <img
+                src="https://cdn.investigativedata.org/openaleph/Logo/RGB/Open-Aleph-Logo-RGB-Horizontal-Pos.svg"
+                width={224}
+                height={50}
+                alt="OpenAleph logo"
+              />
+            </a>
           </StackItem>
           <StackItem
             justifyContent="right"

@@ -1,5 +1,6 @@
 /* BASE MKDOCS SETUP*/
-@import url("./base.css");
+@import url("./fonts.css");
+@import url("./vars.css");
 
 :root {
   --md-code-font: var(--font-family-mono);
@@ -21,7 +22,7 @@ code {
   font-family: var(--font-family-mono);
 }
 .md-header {
-  color: var(--secondary);
+  color: var(--neutral);
 }
 .md-header__title {
   font-family: var(--font-family-mono);

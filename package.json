@@ -43,7 +43,7 @@
     "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
     "@storybook/blocks": "^8.6.11",
     "@storybook/react": "^8.6.11",
-    "@storybook/react-webpack5": "^8.6.11",
+    "@storybook/react-webpack5": "^9.1.14",
     "@storybook/test": "^8.6.11",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
     "@types/node": "^22.13.10",
